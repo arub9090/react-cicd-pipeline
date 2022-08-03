@@ -13,5 +13,12 @@ pipeline {
                 sh "sudo cp -r ${WORKSPACE}/build/ /var/www/react-app/"
             }
         }
+
+        stage ("Testing the file"){
+            
+           steps {
+                echo "this is a test Jenkins by ARIF RUBAYET"
+            }
+        }
     }
 }
